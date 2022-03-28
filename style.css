@@ -1,0 +1,27 @@
+:root {
+	--branco-principal: #FFFFFF;
+	--cinza-secundario: #C0C0C0;
+	--botao-azul: #167BF7;
+	--cor-de-fundo: #040814;
+}
+
+body {
+	background-color: var(--cor-de-fundo);
+	color: var(--branco-principal);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.principal{
+	background-image: url("https://www.medievalists.net/wp-content/uploads/2015/08/fellowship-of-the-ring.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.container{
+	height: 100vh;
+}
+.logo{
+	width: 347.41px;
+	height: 94.65px;
+}
