@@ -3,25 +3,51 @@
 	--cinza-secundario: #C0C0C0;
 	--botao-azul: #167BF7;
 	--cor-de-fundo: #040814;
+	--fonte-principal: 'inter';
 }
 
 body {
 	background-color: var(--cor-de-fundo);
 	color: var(--branco-principal);
+	font-family: var(--fonte-principal);
+	font-size: 16px;
+	font-weight: 400;
 }
 *{
 	margin: 0;
 	padding: 0;
 }
 .principal{
-	background-image: url("https://www.medievalists.net/wp-content/uploads/2015/08/fellowship-of-the-ring.jpg");
+	background-image: url("https://cutewallpaper.org/21/lord-of-the-rings-wallpaper-1920x1080/I-love-this-Lord-of-the-Rings-wallpaper-1920x1080-wallpapers.jpg");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 100%;
 }
 .container{
 	height: 100vh;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.container__titulo{
+	font-size: 28px;
+	font-weight: 700;
 }
 .logo{
-	width: 347.41px;
-	height: 94.65px;
+	width: 348px;
+	height: 100px;
+}
+.container__ancora{
+	background-color: var(--botao-azul);
+	border-radius: 8px;
+	padding: 1em;
+	color: var(--branco-principal);
+	display: block;
+	text-decoration: none;
+}
+.ancora_secundaria{
+	background-color: transparent;
+	border: 2px solid var(--branco-principal);
+}
+.container__aviso{
+	font-size: 12px;
+	color: var(--cinza-secundario);
 }
