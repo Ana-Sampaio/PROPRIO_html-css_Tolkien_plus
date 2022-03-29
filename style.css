@@ -21,19 +21,25 @@ body {
 	background-image: url("https://cutewallpaper.org/21/lord-of-the-rings-wallpaper-1920x1080/I-love-this-Lord-of-the-Rings-wallpaper-1920x1080-wallpapers.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	align-items: center;
+	text-align: center;
 }
 .container{
 	height: 100vh;
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
+.container__caixa{
+	margin: 0 6em;
+}
 .container__titulo{
 	font-size: 28px;
 	font-weight: 700;
 }
-.logo{
+.container__logo{
 	width: 348px;
 	height: 100px;
+	margin: 1em 0 2em 0;
 }
 .container__ancora{
 	background-color: var(--botao-azul);
@@ -42,12 +48,35 @@ body {
 	color: var(--branco-principal);
 	display: block;
 	text-decoration: none;
+	margin-bottom: 1em;
 }
-.ancora_secundaria{
+.ancora__secundaria{
 	background-color: transparent;
 	border: 2px solid var(--branco-principal);
 }
 .container__aviso{
 	font-size: 12px;
 	color: var(--cinza-secundario);
+}
+.secundario{
+	align-items: center;
+	margin: 0 10em;
+}
+.secundario__imagem{
+	width: 80%;
+}
+.descricao__titulo{
+	font-weight: 700;
+	font-size: 48px;
+	margin-bottom: 0.3em;
+}
+.descricao__texto{
+	color: var(--cinza-secundario);
+}
+.secundaria_ancora{
+	display: inline-block;
+	margin-top: 1em;
+}
+.container__descricao{
+	padding: 2em;
 }
