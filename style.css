@@ -136,3 +136,8 @@ body {
 	font-size: 14px;
 	color: var(--cinza-secundario);
 }
+@media screen and (max-width: 480px){
+	.container{
+		height: 100vh;
+	}
+}
