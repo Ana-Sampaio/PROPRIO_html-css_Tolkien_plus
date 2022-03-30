@@ -4,6 +4,7 @@
 	--botao-azul: #167BF7;
 	--cor-de-fundo: #040814;
 	--fonte-principal: 'inter';
+	--botao-azul-efeito: #fc007e;
 }
 
 body {
@@ -50,6 +51,10 @@ body {
 	text-decoration: none;
 	margin-bottom: 1em;
 }
+.container__ancora:hover{
+	background-color: var(--botao-azul-efeito);
+	color: var(--cor-de-fundo);
+}
 .ancora__secundaria{
 	background-color: transparent;
 	border: 2px solid var(--branco-principal);
@@ -79,4 +84,55 @@ body {
 }
 .container__descricao{
 	padding: 2em;
+}
+.dispositivos{
+	margin-top: 1em;
+	text-align: center;
+}
+.dispositivos__titulo{
+	font-size: 38px;
+	color: var(--branco-principal);
+}
+.dispositivos__lista{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 3em 0;
+}
+.lista__item{
+	font-size: 22px;
+	color: var(--branco-principal)
+}
+.footer{
+	margin-top: 5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+.footer__logo{
+	width: 50px;
+}
+.footer__lista{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin-top: 0.5em;
+}
+.lista__link{
+	padding: 0.1em 0.4em;
+	font-size: 14px;
+}
+.lista__link a{
+	text-decoration: none;
+	color: var(--branco-principal);
+}
+.lista__link a:hover{
+	color: var(--botao-azul);
+}
+.lista__link a:active{
+	color: deeppink;
+}
+.footer__texto{
+	margin: 1em;
+	font-size: 14px;
+	color: var(--cinza-secundario);
 }
