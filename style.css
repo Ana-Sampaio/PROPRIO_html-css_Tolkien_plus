@@ -138,12 +138,7 @@ body {
 }
 @media screen and (max-width: 480px){
 	.container, .principal, .secundario, .dispositivos, .footer{
-		width: auto;
-	}
-	h1, h2, h3, p{
-		text-align: center;
-	}
-	.lista__item, .lista__link, .secundario__imagem, .container__logo, .footer__logo{
 		width: 100%;
+		display: block;
 	}
 }
