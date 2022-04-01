@@ -136,7 +136,7 @@ body {
 	font-size: 14px;
 	color: var(--cinza-secundario);
 }
-@media screen and (max-width: 480px){
+@media screen and (min-width: 320px){
 	.container, .principal, .secundario, .dispositivos, .footer{
 		width: 100%;
 		display: block;
